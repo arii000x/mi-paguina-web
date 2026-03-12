@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Tu tienda tecnológica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="logo">comida yummy yummy<span class="bolt">🍕🍔🌯</span></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container intro">
+            <h1>Bienvenido a la mejor comida  que comeras</h1>
+            <p>En comida yummy yummy te damos la bienvnida a probar y no quedarte con las ganas  </p>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Nuestra Misión</h>
+                    <p>es que pruebes nuestra dliciosa comida, con un toque sensacional</p>
+                </div>
+                <div class="card">
+                    <h3>Nuestra Visión</h3>
+                    <h3>que el cliente quede sastifecho con nuestra deliciosa comida </h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="container">
+            <h2>Nuestro producto estrella</h2>
+            <div class="accesorio-container">
+
+                <article class="product-card">
+                    <img src="../imagen/hambu2.jpeg" alt="Hamburguesa">
+                    <div class="card-content">
+                        <span class="brand">Dell</span>
+                        <h3>hamburguesa</h3>
+                        <p>rica hamburguesa con papas y una soda </p>
+                        <p class="price">$15</p>
+                        <button class="btn-cart">Añadir al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="../imagen/burritos.jpeg" alt="Hamburguesa">
+                    <div class="card-content">
+                        <span class="brand">Dell</span>
+                        <h3>burritos</h3>
+                        <p>tres deliciosos burrios mixtos </p>
+                        <p class="price">$14</p>
+                        <button class="btn-cart">Añadir al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="../imagen/pzza.jpeg" alt="Hamburguesa">
+                    <div class="card-content">
+                        <span class="brand">Dell</span>
+                        <h3>pizza</h3>
+                        <p>pizza con doble queso de 8 porciones</p>
+                        <p class="price">$18</p>
+                        <button class="btn-cart">Añadir al carrito</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contáctanos</h2>
+            <form action="#" class="contact-form">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" placeholder="luna portillo " required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="tu@correo.com" required>
+
+                <label for="message">Tu mensaje</label>
+                <textarea id="message" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                
+                <button type="submit" class="btn-submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <p>&copy; 2026 comida yummy yummy</p>
+    </footer>
+
+</body>
+</html>
